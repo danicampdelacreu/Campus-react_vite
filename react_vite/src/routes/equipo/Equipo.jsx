@@ -11,7 +11,7 @@ import image_6 from '/img/img_m_2.png';
 
 export default function Equipo (){
     return(
-        <div clasName="equipo">
+        <div className="equipo">
             <div className="titulo-train">
                 <h1>Entrenadores</h1>
                 <div className="img-train">
