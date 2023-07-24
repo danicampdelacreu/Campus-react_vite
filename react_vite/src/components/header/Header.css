@@ -19,9 +19,8 @@
   }
   .headerLogo:hover .logoH{
     transform:scale(1.2);
-    box-shadow: 0 0 10px red;
-    transition: transform 0.2s, box-shadow 0.2s;
-    border-radius: 35%;
+    transition: transform 0.2s;
+    
   }
   
   .headerLink {
