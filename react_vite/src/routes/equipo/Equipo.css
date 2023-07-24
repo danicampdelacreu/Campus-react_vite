@@ -8,3 +8,11 @@
     max-width: 20%;
     height: auto;
 }
+
+.equipo{
+    background-color: black;
+}
+
+.equipo h1{
+    color:white;
+}
