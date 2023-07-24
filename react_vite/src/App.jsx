@@ -1,7 +1,7 @@
 
 import './App.css'
 
-import Header from './components/header/header'
+import Header from './components/header/Header'
 import Home from './routes/home/Home'
 import Campus from './routes/campus/Campus'
 import Footer from './components/footer/Footer'

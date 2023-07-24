@@ -33,28 +33,30 @@
 .footer-nav {
   display: flex;
   justify-content: center;
-  background-color: white;
+  background-color: black;
   text-align: center;
   height: 40px;
+  border-top: white 1px solid;
+  border-bottom: white 1px solid
 }
 
 /* Estilos para los enlaces dentro del div .footer-nav */
 .footer-nav a {
   display: inline-block;
   margin: 10px;
-  background-color: white;
-  color: black;
+  background-color:black;
+  color: white;
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s, transform 0.3s;
-  width: 200px;
+  width: 300px;
 }
 
 /* Estilos cuando el cursor se coloca encima del enlace */
 .footer-nav a:hover {
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.656);
   color: white;
   transform: scale(1.1);
- 
+  border-radius: 80px 20px;
 }
 
 
