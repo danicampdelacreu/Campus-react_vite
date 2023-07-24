@@ -11,7 +11,7 @@ export default function Home(){
                 </div>
                 <div className="homeIns">
                     <Link 
-                        to="https://docs.google.com/forms/d/e/1FAIpQLSe6B07RzPaMJ2vzpqXyJtHYYUNgAYdDtHKiuUykSujZy-AYHQ/viewform">Inscripciones 
+                        to="https://docs.google.com/forms/d/e/1FAIpQLSe6B07RzPaMJ2vzpqXyJtHYYUNgAYdDtHKiuUykSujZy-AYHQ/viewform">INSCRIPCIONES 
                     </Link>
                 </div>
                 <div className="home1">

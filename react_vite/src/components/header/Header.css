@@ -5,7 +5,6 @@
 }
 .header {
   width: 100%;
-  
   background-color: black;
   display: flex;
   align-items: center;
@@ -18,6 +17,12 @@
   .headerLogo {
     margin-right: 10px;
   }
+  .headerLogo:hover .logoH{
+    transform:scale(1.2);
+    box-shadow: 0 0 10px red;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 35%;
+  }
   
   .headerLink {
     display: flex;
@@ -27,11 +32,18 @@
   }
 
   .headerLink a{
-    color:white
+    color:white;
+    font-size: 16px;
+    text-decoration: none;
+    transition: font-size 0.2s, color 0.2s;
+  }
+  .headerLink a:hover{
+    font-size: 22px;
+    color:white;
+    box-shadow: inset 0  0 15px  red;
+    border-radius: 80px 20px;
+    padding:3px 7px;
   }
   
-  .headerInsta {
-    margin-right: 50px;
-  }
 
   

@@ -7,7 +7,9 @@ export default function Header(){
         <>
         <div className="header">
             <div className="headerLogo">
+                <Link to="/">
                 <img className="logoH" src="/img/logo_ue_gurb.png" />
+                </Link>
             </div>
             <div className="headerLink">
                 <Link to="/">INICI </Link>
