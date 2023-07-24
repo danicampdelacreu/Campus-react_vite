@@ -1,0 +1,58 @@
+/* Campus.css */
+
+
+
+
+.campus-general {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0%;
+}
+.campus-container {
+    width: 100%;
+    margin: 0 auto;
+   
+}
+  
+.campus-image {
+    width: 70%;
+    height: auto;
+    border-radius: 35px;
+    margin: 0 auto;
+  }
+  
+  .campus-slide {
+    display: flex;
+    margin: 20px 0;
+    
+  }
+  
+  /* Agregar margen izquierdo al primer slide */
+  .campus-slide:first-child {
+    padding-left: 0;
+  }
+  
+  /* Agregar margen derecho al último slide */
+  .campus-slide:last-child {
+    padding-right: 0;
+  }
+  .slick-dots li button:before{
+    color:white !important;
+  }
+
+  .campus-link {
+    display: block;
+    margin: 20px auto; /* Centrar el Link horizontalmente y agregar espacio */
+    color: white; /* Color del texto del Link */
+    text-decoration: none; /* Quitar subrayado del Link */
+  }
+
+  
+  
+  
+  
+  
+  
+
+  

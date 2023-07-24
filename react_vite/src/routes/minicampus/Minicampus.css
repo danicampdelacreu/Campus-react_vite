@@ -1,0 +1,33 @@
+/* Minicampus.css */
+
+.minicampus-general {
+    background-color: white;
+}
+.minicampus-container {
+    width: 100%;
+    margin: 0 auto;
+   
+  }
+  
+  .minicampus-image {
+    width: 70%;
+    height: auto;
+    border-radius: 35px;
+    margin: 0 auto;
+  }
+  
+  .minicampus-slide {
+    display: flex;
+    
+  }
+  
+  /* Agregar margen izquierdo al primer slide */
+  .minicampus-slide:first-child {
+    padding-left: 0;
+  }
+  
+  /* Agregar margen derecho al último slide */
+  .minicampus-slide:last-child {
+    padding-right: 0;
+  }
+  

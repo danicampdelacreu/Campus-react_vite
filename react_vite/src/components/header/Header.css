@@ -1,0 +1,37 @@
+
+.logoH{
+    max-width: 60px;
+    height: auto;
+}
+.header {
+  width: 100%;
+  
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  
+}
+
+  
+  .headerLogo {
+    margin-right: 10px;
+  }
+  
+  .headerLink {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-grow: 1;
+  }
+
+  .headerLink a{
+    color:white
+  }
+  
+  .headerInsta {
+    margin-right: 50px;
+  }
+
+  
