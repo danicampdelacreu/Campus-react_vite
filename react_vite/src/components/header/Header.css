@@ -2,21 +2,18 @@
 .logoH{
     max-width: 60px;
     height: auto;
+    margin-left: 20px;
 }
 .header {
   width: 100%;
   background-color: black;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 10px;
-  
+  justify-content: center; 
 }
 
   
-  .headerLogo {
-    margin-right: 10px;
-  }
+  
   .headerLogo:hover .logoH{
     transform:scale(1.2);
     transition: transform 0.2s;
