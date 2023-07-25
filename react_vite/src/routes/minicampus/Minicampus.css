@@ -1,33 +1,79 @@
-/* Minicampus.css */
 
+ 
 .minicampus-general {
-    background-color: white;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%; 
+  border-top: white 1px solid;
 }
+.minicampus-general h1{
+margin: 0;
+margin-top: 30px;
+}
+
 .minicampus-container {
-    width: 100%;
-    margin: 0 auto;
-   
-  }
+  width: 100%;  
+}
+
+.minicampus-image {
+  width: 70%;
+  height: auto;
+  border-radius: 35px;
+  margin: 0 auto;
+}
+
+.minicampus-slide {
+  display: flex;
+  margin: 20px 0;
   
-  .minicampus-image {
-    width: 70%;
-    height: auto;
-    border-radius: 35px;
-    margin: 0 auto;
-  }
+}
+
+
+.slick-dots li button:before{
+  color:white !important;
+}
+
+.minicampus-link{
+  background-color:black;
+  height: 40px;
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   
-  .minicampus-slide {
-    display: flex;
-    
-  }
-  
-  /* Agregar margen izquierdo al primer slide */
-  .minicampus-slide:first-child {
-    padding-left: 0;
-  }
-  
-  /* Agregar margen derecho al último slide */
-  .minicampus-slide:last-child {
-    padding-right: 0;
-  }
-  
+  margin: 30px auto;
+} 
+
+
+.minicampus-link a {
+display: inline-block;
+background-color: black;
+color:white;
+text-decoration: none;
+transition: background-color 0.3s, color 0.3s, transform 0.3s;
+width: 500px;
+margin-top: 6px;
+font-size: 22px;
+}
+
+.minicampus-link a:hover{
+height: 22px;
+background-color: rgba(255, 0, 0, 0.656);
+color: white;
+transform: scale(1.1);
+border-radius: 80px 20px;
+
+}
+
+.minicampus-expli h4 {
+border-bottom: white 1px solid;
+margin-top: 20px;
+margin-bottom: 0;
+padding-bottom: 40px;
+padding-left: 40px;
+padding-right: 40px;
+text-align: justify; /* Justificado texto */
+line-height: 1.5; /* Interlineado texto */
+}
+ 

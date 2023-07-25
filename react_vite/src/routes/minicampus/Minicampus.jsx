@@ -51,11 +51,15 @@ export default function MiniCampus() {
           ))}
         </Slider>
       </div>
+      <div className="minicampus-link">
       <Link to="https://docs.google.com/forms/d/e/1FAIpQLSe6B07RzPaMJ2vzpqXyJtHYYUNgAYdDtHKiuUykSujZy-AYHQ/viewform">Inscripciones</Link>
+      </div>
+      <div className="minicampus-expli">
       <h4>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat a officiis veniam aliquid. Dolorem tenetur animi optio repellat consectetur, numquam repellendus debitis, neque, impedit quas odit officiis nostrum eveniet reprehenderit?
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, cum amet? Voluptate quibusdam necessitatibus perferendis velit corrupti quas, ea reprehenderit magnam maxime unde deserunt alias quisquam et quasi illo voluptas?
       </h4>
+      </div>
     </div>
   );
 }

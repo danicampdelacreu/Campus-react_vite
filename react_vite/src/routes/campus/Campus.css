@@ -1,18 +1,18 @@
-/* Campus.css */
-
-
-
 
 .campus-general {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 0%;
+    width: 100%; 
+    border-top: white 1px solid;
 }
+.campus-general h1{
+  margin: 0;
+  margin-top: 30px;
+}
+
 .campus-container {
-    width: 100%;
-    margin: 0 auto;
-   
+    width: 100%;  
 }
   
 .campus-image {
@@ -28,27 +28,53 @@
     
   }
   
-  /* Agregar margen izquierdo al primer slide */
-  .campus-slide:first-child {
-    padding-left: 0;
-  }
-  
-  /* Agregar margen derecho al último slide */
-  .campus-slide:last-child {
-    padding-right: 0;
-  }
+ 
   .slick-dots li button:before{
     color:white !important;
   }
 
-  .campus-link {
-    display: block;
-    margin: 20px auto; /* Centrar el Link horizontalmente y agregar espacio */
-    color: white; /* Color del texto del Link */
-    text-decoration: none; /* Quitar subrayado del Link */
-  }
+  .campus-link{
+    background-color:black;
+    height: 40px;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    margin: 30px auto;
+} 
 
   
+.campus-link a {
+  display: inline-block;
+background-color: black;
+color:white;
+text-decoration: none;
+transition: background-color 0.3s, color 0.3s, transform 0.3s;
+width: 500px;
+margin-top: 6px;
+font-size: 22px;
+}
+
+.campus-link a:hover{
+height: 22px;
+background-color: rgba(255, 0, 0, 0.656);
+color: white;
+transform: scale(1.1);
+border-radius: 80px 20px;
+
+}
+
+.campus-expli h4 {
+  border-bottom: white 1px solid;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: justify; /* Justificado texto */
+  line-height: 1.5; /* Interlineado texto */
+}
   
   
   
