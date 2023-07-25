@@ -15,17 +15,17 @@ export default function Equipo (){
             <div className="titulo-train">
                 <h1>Entrenadores</h1>
                 <div className="img-train">
-                <img className="imgT" src={image_1}/>
-                <img className="imgT" src={image_2}/>
-                <img className="imgT" src={image_3}/>
-                <img className="imgT" src={image_4}/>
+                <img className="imgT" src={image_1} alt="Roger Vila"/>
+                <img className="imgT" src={image_2} alt="Blai Sagales"/>
+                <img className="imgT" src={image_3} alt="Ian Quinteros"/>
+                <img className="imgT" src={image_4} alt="Aleix Blancafort"/>
                 </div>
             </div>
             <div className="titulo-monit">
                 <h1>Monitores</h1>
                 <div className="img-moni">
-                <img className="imgM" src={image_5}/>
-                <img className="imgM" src={image_6}/>
+                <img className="imgM" src={image_5} alt="Paula Alonso"/>
+                <img className="imgM" src={image_6} alt="Nuria Galobardes"/>
                 
                 </div>
             </div>

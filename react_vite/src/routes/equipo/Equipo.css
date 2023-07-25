@@ -1,19 +1,59 @@
-
-.imgT{
-    max-width: 20%;
-    height: auto;
-}
-
+/* Estilos para las imágenes */
+.imgT,
 .imgM {
-    max-width: 20%;
+    width: 150px; /* Tamaño reducido a 100px */
     height: auto;
+    cursor: pointer;
+    position: relative;
 }
 
-.equipo{
+/* Estilos para el componente Equipo */
+.equipo {
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; /* Aumentamos el espacio entre elementos a 40px */
+    padding: 20px; /* Agregamos un poco de espacio de relleno alrededor del componente */
 }
 
-.equipo h1{
-    color:white;
+.equipo h1 {
+    margin: 20px 0; /* Aumentamos el espacio vertical del título */
+    color: white;
     text-align: center;
+}
+
+/* Estilos para el título de Entrenadores y Monitores */
+.titulo-train,
+.titulo-monit {
+    text-align: center;
+}
+
+.img-train,
+.img-moni {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px; /* Aumentamos el espacio entre imágenes a 60px */
+}
+
+.imgT:hover,
+.imgM:hover {
+    transform: scale(1.4); /* Ajustamos el tamaño de agrandamiento */
+}
+
+.imgT:hover::after,
+.imgM:hover::after {
+    content: attr(alt);
+    position: absolute;
+    bottom: 100%; /* Ajustamos la posición del nombre */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    opacity: 1;
+    z-index: 1;
 }

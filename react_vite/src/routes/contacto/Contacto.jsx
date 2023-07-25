@@ -33,13 +33,21 @@ export default function Contacto ()  {
   return (
     <div className="contacto">
       <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
+        <div className="contacto-name">
+          <label>Name</label>
+          <input type="text" name="user_name" />
+        </div>
+        <div className="contacto-email">
+          <label>Email</label>
+          <input type="email" name="user_email" />
+        </div>
+        <div className="contacto-message">
+          <label>Message</label>
+          <textarea name="message" />
+        </div>  
+        <div className="contacto-submit">
+          <input type="submit" value="Send" />
+        </div>  
       </form>
     </div>
   );
