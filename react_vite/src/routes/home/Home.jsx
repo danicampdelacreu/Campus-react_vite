@@ -11,7 +11,7 @@ export default function Home(){
                 </div>
                 <div className="homeIns">
                     <Link 
-                        to="https://docs.google.com/forms/d/e/1FAIpQLSe6B07RzPaMJ2vzpqXyJtHYYUNgAYdDtHKiuUykSujZy-AYHQ/viewform">INSCRIPCIONES 
+                        to="https://docs.google.com/forms/d/e/1FAIpQLSe6B07RzPaMJ2vzpqXyJtHYYUNgAYdDtHKiuUykSujZy-AYHQ/viewform">INSCRIPCIONS 
                     </Link>
                 </div>
                 <div className="home1">
@@ -23,7 +23,7 @@ export default function Home(){
                     <img className="img2" src="/img/foto3.jpg" />
                 </div>
                 <div className="home3">
-                    <p>Explicacion</p>
+                    <p>Explicacio</p>
                     <img className="img3" src="/img/foto6.jpg" />
                 </div>   
             </div>

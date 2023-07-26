@@ -34,7 +34,7 @@ export default function Contacto ()  {
     <div className="contacto">
       <form ref={form} onSubmit={sendEmail}>
         <div className="contacto-name">
-          <label>Name</label>
+          <label>Nom</label>
           <input type="text" name="user_name" />
         </div>
         <div className="contacto-email">
@@ -42,11 +42,11 @@ export default function Contacto ()  {
           <input type="email" name="user_email" />
         </div>
         <div className="contacto-message">
-          <label>Message</label>
+          <label>Missatge</label>
           <textarea name="message" />
         </div>  
         <div className="contacto-submit">
-          <input type="submit" value="Send" />
+          <input type="submit" value="Enviar" />
         </div>  
       </form>
     </div>

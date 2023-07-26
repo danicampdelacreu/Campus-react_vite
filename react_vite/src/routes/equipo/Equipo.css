@@ -1,59 +1,93 @@
 /* Estilos para las imágenes */
-.imgT,
-.imgM {
-    width: 150px; /* Tamaño reducido a 100px */
-    height: auto;
-    cursor: pointer;
-    position: relative;
+.imgT1,
+.imgT2,
+.imgT3,
+.imgT4,
+.imgM1,
+.imgM2 {
+  width: 150px;
+  height: auto;
+  cursor: pointer;
+  position: relative;
 }
 
 /* Estilos para el componente Equipo */
 .equipo {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px; /* Aumentamos el espacio entre elementos a 40px */
-    padding: 20px; /* Agregamos un poco de espacio de relleno alrededor del componente */
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+  padding-bottom: 50px;
 }
 
 .equipo h1 {
-    margin: 20px 0; /* Aumentamos el espacio vertical del título */
-    color: white;
-    text-align: center;
+  margin: 20px 0;
+  color: white;
+  text-align: center;
 }
 
-/* Estilos para el título de Entrenadores y Monitores */
 .titulo-train,
-.titulo-monit {
-    text-align: center;
+.titulo-moni {
+  text-align: center;
 }
 
 .img-train,
 .img-moni {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 60px; /* Aumentamos el espacio entre imágenes a 60px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.imgT:hover,
-.imgM:hover {
-    transform: scale(1.4); /* Ajustamos el tamaño de agrandamiento */
+/* Estilos para el contenedor de imagen y texto */
+.equipo .imgT1Wrapper,
+.equipo .imgT2Wrapper,
+.equipo .imgT3Wrapper,
+.equipo .imgT4Wrapper,
+.equipo .imgM1Wrapper,
+.equipo .imgM2Wrapper {
+  position: relative; /* Cambiamos a posición relativa */
 }
 
-.imgT:hover::after,
-.imgM:hover::after {
-    content: attr(alt);
-    position: absolute;
-    bottom: 100%; /* Ajustamos la posición del nombre */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    padding: 5px;
-    text-align: center;
-    opacity: 1;
-    z-index: 1;
+/* Estilos para mostrar el texto en el hover */
+.equipo .imgT1Wrapper span,
+.equipo .imgT2Wrapper span,
+.equipo .imgT3Wrapper span,
+.equipo .imgT4Wrapper span,
+.equipo .imgM1Wrapper span,
+.equipo .imgM2Wrapper span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
+
+.equipo .imgT1Wrapper:hover span,
+.equipo .imgT2Wrapper:hover span,
+.equipo .imgT3Wrapper:hover span,
+.equipo .imgT4Wrapper:hover span,
+.equipo .imgM1Wrapper:hover span,
+.equipo .imgM2Wrapper:hover span {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Estilos para el efecto de escala en el hover */
+.imgT1:hover,
+.imgT2:hover,
+.imgT3:hover,
+.imgT4:hover,
+.imgM1:hover,
+.imgM2:hover {
+  transform: scale(1.4);
+}
+

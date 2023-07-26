@@ -51,7 +51,7 @@ export default function Campus() {
         </Slider>
       </div>
       <div className="campus-link">
-        <Link to="https://docs.google.com/forms/d/e/1FAIpQLSe6B07RzPaMJ2vzpqXyJtHYYUNgAYdDtHKiuUykSujZy-AYHQ/viewform">Inscripciones</Link>
+        <Link to="https://docs.google.com/forms/d/e/1FAIpQLSe6B07RzPaMJ2vzpqXyJtHYYUNgAYdDtHKiuUykSujZy-AYHQ/viewform">Inscripcions</Link>
       </div>
       <div className="campus-expli">
       <h4>
