@@ -13,22 +13,41 @@ export default function Equipo (){
     return(
         <div className="equipo">
             <div className="titulo-train">
-                <h1>Entrenadores</h1>
+                <h1>Entrenadors</h1>
                 <div className="img-train">
-                <img className="imgT" src={image_1} alt="Roger Vila"/>
-                <img className="imgT" src={image_2} alt="Blai Sagales"/>
-                <img className="imgT" src={image_3} alt="Ian Quinteros"/>
-                <img className="imgT" src={image_4} alt="Aleix Blancafort"/>
+                    <div className="imgT1Wrapper">
+                        <img className="imgT1" src={image_1} />
+                        <span>Roger Vila</span>
+                    </div>
+                    <div className="imgT2Wrapper">
+                        <img className="imgT2" src={image_2} />
+                        <span>Blai Sagales</span>
+                    </div>
+                    <div className="imgT3Wrapper">
+                        <img className="imgT3" src={image_3} />
+                        <span>Ian Quinteros</span>
+                    </div>
+                    <div className="imgT4Wrapper">
+                        <img className="imgT4" src={image_4} />
+                        <span>Aleix Blancafort</span>
+                    </div>
                 </div>
             </div>
-            <div className="titulo-monit">
-                <h1>Monitores</h1>
+            <div className="titulo-moni">
+                <h1>Monitors</h1>
                 <div className="img-moni">
-                <img className="imgM" src={image_5} alt="Paula Alonso"/>
-                <img className="imgM" src={image_6} alt="Nuria Galobardes"/>
-                
+                    <div className="imgM1Wrapper">
+                        <img className="imgM1" src={image_5} />
+                        <span>Paula Alonso</span>
+                    </div>
+                    <div className="imgM2Wrapper">
+                        <img className="imgM2" src={image_6} />
+                        <span>Nuria Galobardes</span>
+                    </div>
                 </div>
             </div>
         </div>
+
+      
     )
 }

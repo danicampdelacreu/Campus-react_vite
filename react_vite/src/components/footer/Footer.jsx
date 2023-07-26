@@ -6,8 +6,8 @@ export default function Footer(){
     return(
     <div className="footer">
         <div className="footer-nav">
-            <Link to="/contacto">Contacto </Link>
-            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSe6B07RzPaMJ2vzpqXyJtHYYUNgAYdDtHKiuUykSujZy-AYHQ/viewform">Inscripciones </Link>
+            <Link to="/contacto">Contacte </Link>
+            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSe6B07RzPaMJ2vzpqXyJtHYYUNgAYdDtHKiuUykSujZy-AYHQ/viewform">Inscripcions </Link>
         </div>
         <div className="footer-logos">
             <div className="footer-ubi">
@@ -21,7 +21,7 @@ export default function Footer(){
                 </Link>
             </div>
             <div className="footer-patro">
-                <h4>Patrocinadores</h4>
+                <h4>Patrocinadors</h4>
                 <div className="logoPatro">
                     <img className="logoAF" src="/img/escut-gurb.png" />
                     <img className="logoGF" src="/img/logo_ue_gurb.png" />

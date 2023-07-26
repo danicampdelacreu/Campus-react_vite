@@ -52,7 +52,7 @@ export default function MiniCampus() {
         </Slider>
       </div>
       <div className="minicampus-link">
-      <Link to="https://docs.google.com/forms/d/e/1FAIpQLSe6B07RzPaMJ2vzpqXyJtHYYUNgAYdDtHKiuUykSujZy-AYHQ/viewform">Inscripciones</Link>
+      <Link to="https://docs.google.com/forms/d/e/1FAIpQLSe6B07RzPaMJ2vzpqXyJtHYYUNgAYdDtHKiuUykSujZy-AYHQ/viewform">Inscripcions</Link>
       </div>
       <div className="minicampus-expli">
       <h4>
