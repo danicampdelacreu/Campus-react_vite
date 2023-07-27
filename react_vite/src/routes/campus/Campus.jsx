@@ -21,13 +21,13 @@ export default function Campus() {
 
   // Utilizar useEffect para actualizar la velocidad del carrusel después de montar el componente
   useEffect(() => {
-    setAutoplaySpeed(4500); // Establecer la velocidad deseada después de 0 segundos
+    setAutoplaySpeed(3000); // Establecer la velocidad deseada después de 0 segundos
   },[]);
 
   const settings = {
     dots: true,
     infinite: true,
-    speed: 4500,
+    speed: 3000,
     autoplay: true,
     autoplaySpeed: autoplaySpeed,
     slidesToShow: 1,
@@ -54,10 +54,12 @@ export default function Campus() {
         <Link to="https://docs.google.com/forms/d/e/1FAIpQLSe6B07RzPaMJ2vzpqXyJtHYYUNgAYdDtHKiuUykSujZy-AYHQ/viewform">Inscripcions</Link>
       </div>
       <div className="campus-expli">
-      <h4>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat a officiis veniam aliquid. Dolorem tenetur animi optio repellat consectetur, numquam repellendus debitis, neque, impedit quas odit officiis nostrum eveniet reprehenderit?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, cum amet? Voluptate quibusdam necessitatibus perferendis velit corrupti quas, ea reprehenderit magnam maxime unde deserunt alias quisquam et quasi illo voluptas?
-      </h4>
+      <p>
+        El campus de Gurb és un programa enfocat exclusivament al futbol. 
+        És un entorn dinàmic i emocionant on els nens i nenes tenen l'oportunitat de millorar les seves habilitats futbolístiques a través de diferents entrenaments,
+        exercicis i partits. El campus de Gurb ofereix una immersió total en l'esport, amb tècnics experimentats que guien als participants en el desenvolupament de
+        les seves habilitats i estratègies de joc.
+      </p>
       </div>
     </div>
   );

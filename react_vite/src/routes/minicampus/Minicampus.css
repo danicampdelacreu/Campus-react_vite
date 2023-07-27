@@ -66,15 +66,15 @@ border-radius: 80px 20px;
 
 }
 
-.minicampus-expli h4 {
-border-bottom: white 1px solid;
-margin-top: 20px;
-margin-bottom: 0;
-padding-bottom: 40px;
-padding-left: 40px;
-padding-right: 40px;
-text-align: justify; /* Justificado texto */
-line-height: 1.5; /* Interlineado texto */
-font-size: 16px;
+.minicampus-expli p {
+  border-bottom: white 1px solid;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-bottom: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: justify; /* Justificado texto */
+  line-height: 1.8; /* Interlineado texto */
+  font-size: 18px;
 }
  
