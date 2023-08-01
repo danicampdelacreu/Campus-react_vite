@@ -31,6 +31,7 @@
     margin-right: auto;
     text-align: center;
     border-bottom: white 1px solid;
+    
 } 
   
 .homeIns a {
@@ -148,10 +149,9 @@
       background-color:black;
       height: 30px;
       width:100%;
-      margin-left: auto;
-      margin-right: auto;
       text-align: center;
       border-bottom: white 1px solid;
+      
   } 
     
   .homeIns a {
@@ -162,6 +162,7 @@
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
     width: 600px;
     margin-top: 6px;
+
   }
   
   .homeIns a:hover{
@@ -177,8 +178,6 @@
       background-color: black;
       width: 100%;
       color:white;
-      padding: 30px;
-      
   }
   .home3{
       display: flex;
@@ -186,7 +185,6 @@
       background-color: black;
       width: 100%;
       color:white;
-      padding: 30px;
       
   }
   .home2{
@@ -196,7 +194,6 @@
       width:100%;
       color:black;
       flex-direction: row-reverse;
-      padding: 30px;
   }
   .home1 p,
   .home2 p,
@@ -233,6 +230,7 @@
   .home3 p {
     order: 2;
     margin-left: 70px;
+   
   }
   
   .home .home1,
@@ -243,7 +241,7 @@
   
   .homeFijo {
       width: 100%;
-      height: 200px;
+      height: 300px;
       position: relative;
       overflow: hidden;
     }
@@ -256,22 +254,10 @@
       top:0;
       left: 0; 
       z-index:-1;
+      
     }
   .home3 p{
       margin-left: 70px;
   } 
   
-  .image-paragraph-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 800px; /* Establecemos un ancho máximo para evitar que se exceda en pantallas grandes */
-    margin-bottom: 20px; /* Espaciado inferior entre la imagen y el párrafo */
-  }
-
-  /* Estilos específicos para la imagen dentro del contenedor */
-  .image-paragraph-container img {
-    max-width: 100%;
-    height: auto; /* Ajustamos la altura automáticamente para mantener la proporción */
-  }
-  }
+}
