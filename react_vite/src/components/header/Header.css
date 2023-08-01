@@ -1,4 +1,51 @@
+@media (max-width: 649px){
+  .logoH{
+    max-width: 60px;
+    height: auto;
+    margin-left: 20px;
+}
+.header {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
 
+  
+  
+  .headerLogo:hover .logoH{
+    transform:scale(1.2);
+    transition: transform 0.2s;
+    
+  }
+  
+  .headerLink {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-grow: 1;
+  }
+
+  .headerLink a{
+    color:white;
+    font-size: 12px;
+    text-decoration: none;
+    transition: font-size 0.2s, color 0.2s;
+  }
+  .headerLink a:hover{
+    font-size: 16px;
+    color:white;
+    box-shadow: inset 0  0 15px  red;
+    border-radius: 80px 20px;
+    padding:3px 7px;
+  }
+}  
+
+
+
+
+@media (min-width: 650px) and (max-width: 900px){
 .logoH{
     max-width: 60px;
     height: auto;
@@ -40,6 +87,49 @@
     border-radius: 80px 20px;
     padding:3px 7px;
   }
-  
+}  
 
+
+@media (min-width: 901px) {
+  .logoH{
+    max-width: 60px;
+    height: auto;
+    margin-left: 20px;
+}
+.header {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
   
+  
+  .headerLogo:hover .logoH{
+    transform:scale(1.2);
+    transition: transform 0.2s;
+    
+  }
+  
+  .headerLink {
+    display: flex;
+    justify-content: center;
+    gap: 90px ;
+    flex-grow: 1;
+  }
+
+  .headerLink a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: font-size 0.2s, color 0.2s;
+  }
+  .headerLink a:hover{
+    font-size: 24px;
+    color:white;
+    box-shadow: inset 0  0 15px  red;
+    border-radius: 80px 20px;
+    padding:3px 7px;
+  }
+
+}
