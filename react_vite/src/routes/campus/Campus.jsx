@@ -58,7 +58,7 @@ export default function Campus() {
         El campus de Gurb és un programa enfocat exclusivament al futbol. 
         És un entorn dinàmic i emocionant on els nens i nenes tenen l'oportunitat de millorar les seves habilitats futbolístiques a través de diferents entrenaments,
         exercicis i partits. El campus de Gurb ofereix una immersió total en l'esport, amb tècnics experimentats que guien als participants en el desenvolupament de
-        les seves habilitats i estratègies de joc.
+        les seves habilitats i estratègies del joc.
       </p>
       </div>
     </div>
