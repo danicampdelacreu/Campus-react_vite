@@ -1,5 +1,5 @@
 
-
+@media (max-width: 900px){
 /* Estilos para el contenedor de contacto */
 .contacto {
   background-color: black;
@@ -10,6 +10,7 @@
   justify-content: center;
   height: 50vh;
   font-size: 18px;
+  border-top: white 1px solid;
 }
 
 /* Estilos para cada elemento dentro del formulario */
@@ -58,3 +59,69 @@
 .contacto-submit input[type="submit"]:hover {
   background-color: #45a049;
 }
+}
+
+
+@media (min-width: 901px) and (max-width:1200px){
+  /* Estilos para el contenedor de contacto */
+  .contacto {
+    background-color: black;
+    padding: 2cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    font-size: 20px;
+    border-top: white 1px solid;
+  }
+  
+  /* Estilos para cada elemento dentro del formulario */
+  .contacto-name,
+  .contacto-email,
+  .contacto-message,
+  .contacto-submit {
+    margin-bottom: 0.5cm;
+    width:100%;
+  
+  }
+  
+  /* Estilos para etiquetas (labels) */
+  .contacto label {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para inputs y textarea */
+  .contacto input,
+  .contacto textarea {
+    width: 500px;
+    height: 30px;
+    padding: 0.5em;
+    box-sizing: border-box;
+    background-color: rgba(128, 128, 128, 0.587);
+    border-radius: 80px 20px;
+    text-align: center;
+    color:white;
+  }
+  
+  .contacto textarea[name="message"] {
+    height: 10em; /* Definimos una altura de 10em para el textarea del mensaje */
+    border-radius:8px;
+    font-size: 18px;
+  }
+  
+  /* Estilos para el botón de envío */
+  .contacto-submit input[type="submit"] {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 80px 20px;
+  }
+  
+  /* Estilos para el botón de envío al pasar el ratón */
+  .contacto-submit input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  }
