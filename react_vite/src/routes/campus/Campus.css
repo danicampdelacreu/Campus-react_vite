@@ -1,4 +1,5 @@
 
+
 .campus-general {
     background-color: black;
     color: white;
@@ -65,7 +66,7 @@ border-radius: 80px 20px;
 }
 
 .campus-expli p {
-  border-bottom: white 1px solid;
+  
   margin-top: 20px;
   margin-bottom: 0;
   padding-bottom: 40px;
@@ -75,7 +76,23 @@ border-radius: 80px 20px;
   line-height: 1.8; /* Interlineado texto */
   font-size: 18px;
 }
-  
+
+
+@media (min-width: 901px){
+
+.campus-expli p {
+   
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+    text-align: justify; /* Justificado texto */
+    line-height: 1.8; /* Interlineado texto */
+    font-size: 22px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+}
   
   
   
