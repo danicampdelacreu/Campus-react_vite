@@ -1,3 +1,4 @@
+@media (max-width: 649px){
 /* Estilos para las imágenes */
 .imgT1,
 .imgT2,
@@ -5,7 +6,7 @@
 .imgT4,
 .imgM1,
 .imgM2 {
-  width: 150px;
+  width: 200px;
   height: auto;
   cursor: pointer;
   position: relative;
@@ -13,13 +14,15 @@
 
 /* Estilos para el componente Equipo */
 .equipo {
+
   background-color: black;
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   align-items: center;
   gap: 40px;
   padding: 20px;
   padding-bottom: 50px;
+  border-top: white 1px solid;
 }
 
 .equipo h1 {
@@ -38,6 +41,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 /* Estilos para el contenedor de imagen y texto */
@@ -61,14 +65,14 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 5px;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
-  font-size: 17px;
+  font-size: 18px;
   text-align: center;
   visibility: hidden;
   opacity: 0;
   transition: opacity 0.3s ease, visibility 0.3s ease;
+  border-radius: 30px;
 }
 
 .equipo .imgT1Wrapper:hover span,
@@ -91,3 +95,306 @@
   transform: scale(1.4);
 }
 
+}
+
+@media (min-width: 650px) and (max-width:900px){
+  /* Estilos para las imágenes */
+  .imgT1,
+  .imgT2,
+  .imgT3,
+  .imgT4,
+  .imgM1,
+  .imgM2 {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  /* Estilos para el componente Equipo */
+  .equipo {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    padding-bottom: 50px;
+    border-top: white 1px solid;
+  }
+  
+  .equipo h1 {
+    margin: 20px 0;
+    color: white;
+    text-align: center;
+  }
+  
+  .titulo-train,
+  .titulo-moni {
+    text-align: center;
+  }
+  
+  .img-train,
+  .img-moni {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Estilos para el contenedor de imagen y texto */
+  .equipo .imgT1Wrapper,
+  .equipo .imgT2Wrapper,
+  .equipo .imgT3Wrapper,
+  .equipo .imgT4Wrapper,
+  .equipo .imgM1Wrapper,
+  .equipo .imgM2Wrapper {
+    position: relative; /* Cambiamos a posición relativa */
+  }
+  
+  /* Estilos para mostrar el texto en el hover */
+  .equipo .imgT1Wrapper span,
+  .equipo .imgT2Wrapper span,
+  .equipo .imgT3Wrapper span,
+  .equipo .imgT4Wrapper span,
+  .equipo .imgM1Wrapper span,
+  .equipo .imgM2Wrapper span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  .equipo .imgT1Wrapper:hover span,
+  .equipo .imgT2Wrapper:hover span,
+  .equipo .imgT3Wrapper:hover span,
+  .equipo .imgT4Wrapper:hover span,
+  .equipo .imgM1Wrapper:hover span,
+  .equipo .imgM2Wrapper:hover span {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  /* Estilos para el efecto de escala en el hover */
+  .imgT1:hover,
+  .imgT2:hover,
+  .imgT3:hover,
+  .imgT4:hover,
+  .imgM1:hover,
+  .imgM2:hover {
+    transform: scale(1.4);
+  }
+  
+  }
+
+  @media (min-width: 901px)and (max-width: 1200px){
+    /* Estilos para las imágenes */
+    .imgT1,
+    .imgT2,
+    .imgT3,
+    .imgT4,
+    .imgM1,
+    .imgM2 {
+      width: 200px;
+      height: auto;
+      cursor: pointer;
+      position: relative;
+    }
+    
+    /* Estilos para el componente Equipo */
+    .equipo {
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      padding: 20px;
+      padding-bottom: 60px;
+      border-top: white 1px solid;
+    }
+    
+    .equipo h1 {
+      margin: 20px 0;
+      color: white;
+      text-align: center;
+    }
+    
+    .titulo-train,
+    .titulo-moni {
+      text-align: center;
+    }
+    
+    .img-train,
+    .img-moni {
+      display: flex;
+      align-items:center;
+      justify-content: center;
+    }
+
+    .img-train > *:not(:last-child),
+    .img-moni > *:not(:last-child) {
+        margin-right: 40px; /* Puedes ajustar el valor según el espacio deseado */
+}
+    
+    /* Estilos para el contenedor de imagen y texto */
+    .equipo .imgT1Wrapper,
+    .equipo .imgT2Wrapper,
+    .equipo .imgT3Wrapper,
+    .equipo .imgT4Wrapper,
+    .equipo .imgM1Wrapper,
+    .equipo .imgM2Wrapper {
+      position: relative; /* Cambiamos a posición relativa */
+    }
+    
+    /* Estilos para mostrar el texto en el hover */
+    .equipo .imgT1Wrapper span,
+    .equipo .imgT2Wrapper span,
+    .equipo .imgT3Wrapper span,
+    .equipo .imgT4Wrapper span,
+    .equipo .imgM1Wrapper span,
+    .equipo .imgM2Wrapper span {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 5px;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      font-size: 17px;
+      text-align: center;
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+    
+    .equipo .imgT1Wrapper:hover span,
+    .equipo .imgT2Wrapper:hover span,
+    .equipo .imgT3Wrapper:hover span,
+    .equipo .imgT4Wrapper:hover span,
+    .equipo .imgM1Wrapper:hover span,
+    .equipo .imgM2Wrapper:hover span {
+      visibility: visible;
+      opacity: 1;
+    }
+    
+    /* Estilos para el efecto de escala en el hover */
+    .imgT1:hover,
+    .imgT2:hover,
+    .imgT3:hover,
+    .imgT4:hover,
+    .imgM1:hover,
+    .imgM2:hover {
+      transform: scale(1.4);
+    }
+    
+    }
+  
+
+    @media (min-width: 1201px){
+      /* Estilos para las imágenes */
+      .imgT1,
+      .imgT2,
+      .imgT3,
+      .imgT4,
+      .imgM1,
+      .imgM2 {
+        width: 230px;
+        height: auto;
+        cursor: pointer;
+        position: relative;
+      }
+      
+      /* Estilos para el componente Equipo */
+      .equipo {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 20px;
+        padding-bottom: 60px;
+        border-top: white 1px solid;
+      }
+      
+      .equipo h1 {
+        margin: 20px 0;
+        color: white;
+        text-align: center;
+      }
+      
+      .titulo-train,
+      .titulo-moni {
+        text-align: center;
+      }
+      
+      .img-train,
+      .img-moni {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+      }
+  
+      .img-train > *:not(:last-child),
+      .img-moni > *:not(:last-child) {
+          margin-right: 70px; /* Puedes ajustar el valor según el espacio deseado */
+  }
+      
+      /* Estilos para el contenedor de imagen y texto */
+      .equipo .imgT1Wrapper,
+      .equipo .imgT2Wrapper,
+      .equipo .imgT3Wrapper,
+      .equipo .imgT4Wrapper,
+      .equipo .imgM1Wrapper,
+      .equipo .imgM2Wrapper {
+        position: relative; /* Cambiamos a posición relativa */
+      }
+      
+      /* Estilos para mostrar el texto en el hover */
+      .equipo .imgT1Wrapper span,
+      .equipo .imgT2Wrapper span,
+      .equipo .imgT3Wrapper span,
+      .equipo .imgT4Wrapper span,
+      .equipo .imgM1Wrapper span,
+      .equipo .imgM2Wrapper span {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        font-size: 17px;
+        text-align: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+      }
+      
+      .equipo .imgT1Wrapper:hover span,
+      .equipo .imgT2Wrapper:hover span,
+      .equipo .imgT3Wrapper:hover span,
+      .equipo .imgT4Wrapper:hover span,
+      .equipo .imgM1Wrapper:hover span,
+      .equipo .imgM2Wrapper:hover span {
+        visibility: visible;
+        opacity: 1;
+      }
+      
+      /* Estilos para el efecto de escala en el hover */
+      .imgT1:hover,
+      .imgT2:hover,
+      .imgT3:hover,
+      .imgT4:hover,
+      .imgM1:hover,
+      .imgM2:hover {
+        transform: scale(1.4);
+      }
+      
+      }
