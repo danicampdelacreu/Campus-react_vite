@@ -9,29 +9,30 @@ import Equipo from './routes/equipo/Equipo'
 import MiniCampus from './routes/minicampus/Minicampus'
 import Contacto from './routes/contacto/Contacto'
 
-import { 
-  createBrowserRouter, 
-  RouterProvider, 
+import {
+  createBrowserRouter,
+  RouterProvider,
   createRoutesFromElements,
-  Route } 
+  Route
+}
   from "react-router-dom";
 
 function App() {
 
-  const router = createBrowserRouter (
+  const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={[<Header/>, <Footer/>]} >
-        <Route index element ={<Home />} />
+      <Route path="/" element={[<Header />, <Footer />]} >
+        <Route index element={<Home />} />
         <Route path="/campus" element={<Campus />} />
-        <Route path="/equipo" element ={<Equipo />} />
-        <Route path="/minicampus" element ={<MiniCampus />} />
-        <Route path="/contacto" element ={<Contacto />} />
+        <Route path="/equipo" element={<Equipo />} />
+        <Route path="/minicampus" element={<MiniCampus />} />
+        <Route path="/contacto" element={<Contacto />} />
       </Route>
     )
   )
   return (
     <div>
-      <RouterProvider router ={router} />
+      <RouterProvider router={router} />
     </div>
   )
 }
