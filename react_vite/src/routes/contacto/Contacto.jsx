@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 
 import './Contacto.css';
 
-export default function Contacto ()  {
+export default function Contacto() {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -44,10 +44,10 @@ export default function Contacto ()  {
         <div className="contacto-message">
           <label>Missatge</label>
           <textarea name="message" />
-        </div>  
+        </div>
         <div className="contacto-submit">
           <input type="submit" value="Enviar" />
-        </div>  
+        </div>
       </form>
     </div>
   );

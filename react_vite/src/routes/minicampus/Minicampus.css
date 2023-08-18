@@ -1,19 +1,18 @@
-
- 
 .minicampus-general {
   background-color: black;
   color: white;
   text-align: center;
-  width: 100%; 
+  width: 100%;
   border-top: white 1px solid;
 }
-.minicampus-general h1{
-margin: 0;
-margin-top: 30px;
+
+.minicampus-general h1 {
+  margin: 0;
+  margin-top: 30px;
 }
 
 .minicampus-container {
-  width: 100%;  
+  width: 100%;
 }
 
 .minicampus-image {
@@ -26,68 +25,72 @@ margin-top: 30px;
 .minicampus-slide {
   display: flex;
   margin: 20px 0;
-  
+
 }
 
 
-.slick-dots li button:before{
-  color:white !important;
+.slick-dots li button:before {
+  color: white !important;
 }
 
-.minicampus-link{
-  background-color:black;
+.minicampus-link {
+  background-color: black;
   height: 40px;
-  width:100%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  
+
   margin: 30px auto;
-} 
+}
 
 
 .minicampus-link a {
-display: inline-block;
-background-color: black;
-color:white;
-text-decoration: none;
-transition: background-color 0.3s, color 0.3s, transform 0.3s;
-width: 500px;
-margin-top: 6px;
-font-size: 22px;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  width: 500px;
+  margin-top: 6px;
+  font-size: 22px;
 }
 
-.minicampus-link a:hover{
-height: 22px;
-background-color: rgba(255, 0, 0, 0.656);
-color: white;
-transform: scale(1.1);
-border-radius: 80px 20px;
+.minicampus-link a:hover {
+  height: 22px;
+  background-color: rgba(255, 0, 0, 0.656);
+  color: white;
+  transform: scale(1.1);
+  border-radius: 80px 20px;
 
 }
 
 .minicampus-expli p {
- 
+
   margin-top: 20px;
   margin-bottom: 0;
   padding-bottom: 40px;
   padding-left: 60px;
   padding-right: 60px;
-  text-align: justify; /* Justificado texto */
-  line-height: 1.8; /* Interlineado texto */
+  text-align: justify;
+  /* Justificado texto */
+  line-height: 1.8;
+  /* Interlineado texto */
   font-size: 18px;
 }
- 
 
-@media (min-width: 901px){
+
+@media (min-width: 901px) {
 
   .minicampus-expli p {
-    
+
     margin-top: 40px;
     margin-bottom: 0;
     padding-bottom: 40px;
-    text-align: justify; /* Justificado texto */
-    line-height: 1.8; /* Interlineado texto */
+    text-align: justify;
+    /* Justificado texto */
+    line-height: 1.8;
+    /* Interlineado texto */
     font-size: 22px;
     margin-left: 150px;
     margin-right: 150px;

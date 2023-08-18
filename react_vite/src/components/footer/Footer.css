@@ -1,140 +1,54 @@
-@media (max-width: 649px){
+@media (max-width: 649px) {
 
-.logoAF{  
-  max-width: 60px;
-  height: auto;
-}
-.logoGF{  
-  max-width: 60px;
-  height: auto;
-}
-.logoMF{  
-  max-width: 60px;
-  height: auto;
-}
-.logoBF{  
-  max-width: 90px;
-  height: auto;
-}
-.logoLF{  
-    max-width: 6cqb;
+  .logoAF {
+    max-width: 60px;
     height: auto;
-}
-.footer{
-  background-color: black;
-}
-.footer h4{
-  color:white
-}
-.logoIH{
-  max-width: 40px;
-  height: auto;
-  margin-bottom: 10px;
-  margin-left: 30px;
-}
-.logoIH:hover{
-  transform: scale(1.8);
-}
-.logoLF:hover{
-  transform: scale(1.8);
-  
-}
-/* Estilos para el div .footer-nav */
-.footer-nav {
-  display: flex;
-  justify-content: center;
-  background-color: black;
-  text-align: center;
-  height: 40px;
-  border-top: white 1px solid;
-  border-bottom: white 1px solid
-}
-
-/* Estilos para los enlaces dentro del div .footer-nav */
-.footer-nav a {
-  display: inline-block;
-  margin: 10px;
-  background-color:black;
-  color: white;
-  text-decoration: none;
-  transition: background-color 0.3s, color 0.3s, transform 0.3s;
-  width: 200px;
-}
-
-/* Estilos cuando el cursor se coloca encima del enlace */
-.footer-nav a:hover {
-  background-color: rgba(255, 0, 0, 0.656);
-  color: white;
-  transform: scale(1.1);
-  border-radius: 80px 20px;
-}
-
-.footer-logos{
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 20px;
-}
-.footer-ubi{
-  justify-content: center;
-  text-align: center;
-  max-width: 50%;
-  margin-left: 50px;
-}
-
-.footer-patro{
-  text-align: center;
-  max-width: 50%;
-  margin-right: 40px;
-}
-
-}
-
-@media (min-width: 650px) and (max-width: 900px){
-
-  .logoAF{  
-    max-width: 80px;
-    height: auto;
-    margin-left: 20px;
   }
-  .logoGF{  
-    max-width: 80px;
+
+  .logoGF {
+    max-width: 60px;
     height: auto;
-    margin-left: 20px;
   }
-  .logoMF{  
-    max-width: 80px;
+
+  .logoMF {
+    max-width: 60px;
     height: auto;
-    margin-left: 20px;
   }
-  .logoBF{  
+
+  .logoBF {
     max-width: 90px;
     height: auto;
-    margin-left: 20px;
   }
-  .logoLF{  
-      max-width: 60px;
-      height: auto;
-      margin-left: 20px;
+
+  .logoLF {
+    max-width: 6cqb;
+    height: auto;
   }
-  .footer{
+
+  .footer {
     background-color: black;
   }
-  .footer h4{
-    color:white
+
+  .footer h4 {
+    color: white
   }
-  .logoIH{
-    max-width: 60px;
+
+  .logoIH {
+    max-width: 40px;
     height: auto;
     margin-bottom: 10px;
     margin-left: 30px;
   }
-  .logoIH:hover{
+
+  .logoIH:hover {
     transform: scale(1.8);
   }
-  .logoLF:hover{
+
+  .logoLF:hover {
     transform: scale(1.8);
-    
+
   }
+
   /* Estilos para el div .footer-nav */
   .footer-nav {
     display: flex;
@@ -145,18 +59,18 @@
     border-top: white 1px solid;
     border-bottom: white 1px solid
   }
-  
+
   /* Estilos para los enlaces dentro del div .footer-nav */
   .footer-nav a {
     display: inline-block;
     margin: 10px;
-    background-color:black;
+    background-color: black;
     color: white;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
-    width: 350px;
+    width: 200px;
   }
-  
+
   /* Estilos cuando el cursor se coloca encima del enlace */
   .footer-nav a:hover {
     background-color: rgba(255, 0, 0, 0.656);
@@ -164,75 +78,84 @@
     transform: scale(1.1);
     border-radius: 80px 20px;
   }
-  
-  .footer-logos{
+
+  .footer-logos {
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
-    margin-left: 60px;
   }
-  .footer-ubi{
+
+  .footer-ubi {
     justify-content: center;
     text-align: center;
     max-width: 50%;
     margin-left: 50px;
   }
-  
-  .footer-patro{
+
+  .footer-patro {
     text-align: center;
     max-width: 50%;
-    margin-right: 60px;
-    
+    margin-right: 40px;
   }
 
 }
 
-@media (min-width: 901px) and (max-width: 1200px){
+@media (min-width: 650px) and (max-width: 900px) {
 
-  .logoAF{  
+  .logoAF {
+    max-width: 80px;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  .logoGF {
+    max-width: 80px;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  .logoMF {
+    max-width: 80px;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  .logoBF {
     max-width: 90px;
     height: auto;
     margin-left: 20px;
   }
-  .logoGF{  
-    max-width: 90px;
+
+  .logoLF {
+    max-width: 60px;
     height: auto;
     margin-left: 20px;
   }
-  .logoMF{  
-    max-width: 90px;
-    height: auto;
-    margin-left: 20px;
-  }
-  .logoBF{  
-    max-width: 180px;
-    height: auto;
-    margin-left: 20px;
-  }
-  .logoLF{  
-      max-width: 70px;
-      height: auto;
-      margin-top: 20px;
-  }
-  .footer{
+
+  .footer {
     background-color: black;
   }
-  .footer h4{
-    color:white
+
+  .footer h4 {
+    color: white
   }
-  .logoIH{
-    max-width: 70px;
+
+  .logoIH {
+    max-width: 60px;
     height: auto;
     margin-bottom: 10px;
-    margin-left: 70px;
+    margin-left: 30px;
   }
-  .logoIH:hover{
+
+  .logoIH:hover {
     transform: scale(1.8);
   }
-  .logoLF:hover{
+
+  .logoLF:hover {
     transform: scale(1.8);
-    
+
   }
+
   /* Estilos para el div .footer-nav */
   .footer-nav {
     display: flex;
@@ -243,18 +166,18 @@
     border-top: white 1px solid;
     border-bottom: white 1px solid
   }
-  
+
   /* Estilos para los enlaces dentro del div .footer-nav */
   .footer-nav a {
     display: inline-block;
     margin: 10px;
-    background-color:black;
+    background-color: black;
     color: white;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
-    width: 400px;
+    width: 350px;
   }
-  
+
   /* Estilos cuando el cursor se coloca encima del enlace */
   .footer-nav a:hover {
     background-color: rgba(255, 0, 0, 0.656);
@@ -262,25 +185,135 @@
     transform: scale(1.1);
     border-radius: 80px 20px;
   }
-  
-  .footer-logos{
+
+  .footer-logos {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-left: 60px;
+  }
+
+  .footer-ubi {
+    justify-content: center;
+    text-align: center;
+    max-width: 50%;
+    margin-left: 50px;
+  }
+
+  .footer-patro {
+    text-align: center;
+    max-width: 50%;
+    margin-right: 60px;
+
+  }
+
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+
+  .logoAF {
+    max-width: 90px;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  .logoGF {
+    max-width: 90px;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  .logoMF {
+    max-width: 90px;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  .logoBF {
+    max-width: 180px;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  .logoLF {
+    max-width: 70px;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .footer {
+    background-color: black;
+  }
+
+  .footer h4 {
+    color: white
+  }
+
+  .logoIH {
+    max-width: 70px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 70px;
+  }
+
+  .logoIH:hover {
+    transform: scale(1.8);
+  }
+
+  .logoLF:hover {
+    transform: scale(1.8);
+
+  }
+
+  /* Estilos para el div .footer-nav */
+  .footer-nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    height: 40px;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid
+  }
+
+  /* Estilos para los enlaces dentro del div .footer-nav */
+  .footer-nav a {
+    display: inline-block;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    width: 400px;
+  }
+
+  /* Estilos cuando el cursor se coloca encima del enlace */
+  .footer-nav a:hover {
+    background-color: rgba(255, 0, 0, 0.656);
+    color: white;
+    transform: scale(1.1);
+    border-radius: 80px 20px;
+  }
+
+  .footer-logos {
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
     margin-left: 70px;
   }
-  .footer-ubi{
+
+  .footer-ubi {
     justify-content: center;
     text-align: center;
     max-width: 50%;
     margin-left: 60px;
   }
-  
-  .footer-patro{
+
+  .footer-patro {
     text-align: center;
     max-width: 50%;
     margin-right: 70px;
-    
+
   }
 
 }
@@ -288,50 +321,60 @@
 @media (min-width: 1201px) {
 
 
-  .logoAF{  
+  .logoAF {
     max-width: 90px;
     height: auto;
     margin-left: 40px;
   }
-  .logoGF{  
+
+  .logoGF {
     max-width: 90px;
     height: auto;
     margin-left: 40px;
   }
-  .logoMF{  
+
+  .logoMF {
     max-width: 90px;
     height: auto;
     margin-left: 40px;
   }
-  .logoBF{  
+
+  .logoBF {
     max-width: 180px;
     height: auto;
     margin-left: 40px;
   }
-  .logoLF{  
-      max-width: 70px;
-      height: auto;
-      margin-top: 20px;
+
+  .logoLF {
+    max-width: 70px;
+    height: auto;
+    margin-top: 20px;
   }
-  .footer{
+
+  .footer {
     background-color: black;
   }
-  .footer h4{
-    color:white
+
+  .footer h4 {
+    color: white
   }
-  .logoIH{
+
+  .logoIH {
     max-width: 70px;
     height: auto;
     margin-bottom: 10px;
     margin-left: 80px;
   }
-  .logoIH:hover{
+
+  .logoIH:hover {
     transform: scale(1.8);
   }
-  .logoLF:hover{
+
+  .logoLF:hover {
     transform: scale(1.8);
-    
+
   }
+
   /* Estilos para el div .footer-nav */
   .footer-nav {
     display: flex;
@@ -342,18 +385,18 @@
     border-top: white 1px solid;
     border-bottom: white 1px solid
   }
-  
+
   /* Estilos para los enlaces dentro del div .footer-nav */
   .footer-nav a {
     display: inline-block;
     margin: 10px;
-    background-color:black;
+    background-color: black;
     color: white;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
     width: 600px;
   }
-  
+
   /* Estilos cuando el cursor se coloca encima del enlace */
   .footer-nav a:hover {
     background-color: rgba(255, 0, 0, 0.656);
@@ -361,25 +404,26 @@
     transform: scale(1.1);
     border-radius: 80px 20px;
   }
-  
-  .footer-logos{
+
+  .footer-logos {
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
     margin-left: 100px;
   }
-  .footer-ubi{
+
+  .footer-ubi {
     justify-content: center;
     text-align: center;
     max-width: 50%;
     margin-left: 80px;
   }
-  
-  .footer-patro{
+
+  .footer-patro {
     text-align: center;
     max-width: 50%;
     margin-right: 70px;
-    
+
   }
 
 }

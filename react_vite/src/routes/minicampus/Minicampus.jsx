@@ -52,15 +52,15 @@ export default function MiniCampus() {
         </Slider>
       </div>
       <div className="minicampus-link">
-      <Link to="https://docs.google.com/forms/d/e/1FAIpQLSe6B07RzPaMJ2vzpqXyJtHYYUNgAYdDtHKiuUykSujZy-AYHQ/viewform">Inscripcions</Link>
+        <Link to="https://docs.google.com/forms/d/e/1FAIpQLSe6B07RzPaMJ2vzpqXyJtHYYUNgAYdDtHKiuUykSujZy-AYHQ/viewform">Inscripcions</Link>
       </div>
       <div className="minicampus-expli">
-      <p>
-      El mini campus de Gurb és una variant del campus principal per als més petits de casa, que combina el futbol amb activitats lúdiques 
-      i recreatives addicionals. A més de les sessions de futbol, els nens i nenes també gaudeixen de jocs, manualitats i altres activitats 
-      per garantir una experiència equilibrada i enriquidora durant el campus. Aquesta combinació permet que els participants no estiguin exposats 
-      constantment al sol i puguin gaudir d'un repertori més ampli d'activitats, fomentant la diversió, la creativitat i la interacció social.
-      </p>
+        <p>
+          El mini campus de Gurb és una variant del campus principal per als més petits de casa, que combina el futbol amb activitats lúdiques
+          i recreatives addicionals. A més de les sessions de futbol, els nens i nenes també gaudeixen de jocs, manualitats i altres activitats
+          per garantir una experiència equilibrada i enriquidora durant el campus. Aquesta combinació permet que els participants no estiguin exposats
+          constantment al sol i puguin gaudir d'un repertori més ampli d'activitats, fomentant la diversió, la creativitat i la interacció social.
+        </p>
       </div>
     </div>
   );
