@@ -30,6 +30,15 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
+            <div className='footerLinkedin'>
+                <p>
+                    @2023 Campus U.E.GURB by Daniel Campdelacreu /
+                    <a href=
+                        "https://linkedin.com/in/danicampdelacreu-developer">
+                        / LinkedIn
+                    </a>
+                </p>
+            </div>
         </div>
     )
 }
